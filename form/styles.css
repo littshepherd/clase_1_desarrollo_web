@@ -1,0 +1,49 @@
+:root {
+  --white: #fff;
+  --blue: #81f5ff;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem ;
+  background-color: var(--blue);
+}
+.container{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-outer{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.flex-outer > li{
+  min-width: 50rem;
+  width: 80rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.flex-outer > li >input{
+  width: 70rem;
+  height: 3rem;
+}
+.flex-inner{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.flex-inner  li{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
